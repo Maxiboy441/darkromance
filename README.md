@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mein neues Projekt: Ein Blick hinter die Kulissen 🕵️‍♀️
 
-## Getting Started
+Hey, Leute!  
+Willkommen zu meinem kleinen Projekt, das mir wirklich am Herzen liegt. Das ist ein kleines Online-Tool, mit dem ich mir die Dark-Romance-Bücher vorknöpfe, die gerade auf BookTok so angesagt sind.  
 
-First, run the development server:
+Die Community dort ist riesig und feiert diese Geschichten total, aber dabei übersieht man manchmal, was da eigentlich alles problematisch ist. Genau da kommt meine Seite ins Spiel.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Was das hier ist
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Eigentlich ist es eine **Single-Page-Application**, also eine Website, die aus einer einzigen HTML-Datei besteht. Voll praktisch!  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Im Grunde ist es ein kleiner Detektiv, der prüft, was an den Dark-Romance-Storys nicht ideal ist. Er spürt toxische Muster wie **Missbrauch**, **unrealistische Sexualität** oder **problematische Geschlechterrollen** auf und macht sie verständlich.  
 
-## Learn More
+Mit den interaktiven Grafiken siehst du auf einen Blick, wie oft solche Themen in den Büchern vorkommen. Mir geht's nicht darum, die Bücher schlechtzureden, sondern einfach darum, dass wir alle **bewusster lesen**, was da so unter dem Deckmantel der Liebe verkauft wird.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Warum hab ich das überhaupt gebaut?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Die Mission
+Durch mein Fachabitur in Psychologie und Pädagogik habe ich gelernt, wie wichtig es ist, **kritisch zu denken** und die Welt aus verschiedenen Blickwinkeln zu betrachten.  
 
-## Deploy on Vercel
+Ich hab gesehen, wie viele das unkritisch lesen und gar nicht mitbekommen, wie toxisch das sein kann. Solche Storys können echt beeinflussen, wie man Beziehungen wahrnimmt. Gerade wenn du jünger bist, denkst du vielleicht, diese übertriebene Eifersucht oder die ganze Kontrolle sei normal – **aber das ist es nicht**.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ich wollte eine Plattform bauen, welche es vor allem Eltern ermöglicht zu sehen was ihre Kinder da lesen!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Das Comeback
+Ein weiterer Grund für das Projekt war eine Pause vom Programmieren und ein anstehender neuer Job. Ich wollte wieder rein kommen und zack, habe ich mir ein paar Stunden Zeit genommen und das hier ist entstanden. 
+
+---
+
+## Hier kannst du es dir live ansehen! 🚀
+
+Das Projekt ist schon online, du musst nichts herunterladen oder installieren. Wie super ist das denn?  
+
+➡️ **[darkromance.maxih.de](https://darkromance.maxih.de)**
+
+---
+
+## Was ich dafür benutzt hab – Die Technik ✨
+
+Das Ganze läuft auf einem ziemlich einfachen Technik-Stack, der aber richtig gut funktioniert:
+
+- **Next.js mit Typescript**: Das Grundgerüst und das Gehirn der App. Ohne die beiden läuft gar nichts.  
+- **Tailwind CSS**: Für den Look und das Design, damit es auch auf deinem Handy gut aussieht. Super praktisch, weil man die Styles direkt in den HTML-Dateien ändern kann.  
+
+---
+
+Ich hoffe, es gefällt dir! Wenn du eine Meinung hast oder einfach nur Hallo sagen willst, schreib mir gern!  
+
+Viele Grüße!
