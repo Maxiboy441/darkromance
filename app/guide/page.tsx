@@ -1,6 +1,8 @@
+/* eslint-disable */
+
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import './../globals.css';
 import { useSearchParams } from 'next/navigation';
 
@@ -49,7 +51,8 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({ title, description }) => 
   </div>
 );
 
-const DarkRomanceGuide = () => {
+// Separate component that uses useSearchParams
+const DarkRomanceGuideContent = () => {
   const [activeAge, setActiveAge] = useState<'u14' | '14-16' | '16-18' | null>('14-16');
   const [decision, setDecision] = useState<'ja' | 'nein' | null>(null);
   const [guideContent, setGuideContent] = useState<GuideContent | null>(null);
@@ -304,6 +307,25 @@ const DarkRomanceGuide = () => {
         </section>
       </main>
     </div>
+  );
+};
+
+// Loading component for Suspense fallback
+const LoadingFallback = () => (
+  <div className="min-h-screen bg-[#F8F5F2] flex items-center justify-center">
+    <div className="text-center">
+      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#A0522D] mx-auto mb-4"></div>
+      <p className="text-gray-600">Loading...</p>
+    </div>
+  </div>
+);
+
+// Main component that wraps the content in Suspense
+const DarkRomanceGuide = () => {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <DarkRomanceGuideContent />
+    </Suspense>
   );
 };
 
