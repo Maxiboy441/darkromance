@@ -216,7 +216,7 @@ const DarkRomanceGuideContent = () => {
                           : ''
                       }`}
                     >
-                      {guideContent.selects.nicht_leser}
+                      {guideContent.selects.leser}
                     </button>
                     <button
                       onClick={() => setDecision('ja')}
@@ -328,5 +328,6 @@ const DarkRomanceGuide = () => {
     </Suspense>
   );
 };
+
 
 export default DarkRomanceGuide;
