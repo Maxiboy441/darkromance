@@ -216,7 +216,7 @@ const DarkRomanceGuideContent = () => {
                           : ''
                       }`}
                     >
-                      {guideContent.selects.leser}
+                      {guideContent.selects.nicht_leser}
                     </button>
                     <button
                       onClick={() => setDecision('ja')}
@@ -224,7 +224,7 @@ const DarkRomanceGuideContent = () => {
                         decision === 'ja' ? 'active bg-[#A0522D] text-white' : ''
                       }`}
                     >
-                      {guideContent.selects.nicht_leser}
+                      {guideContent.selects.leser}
                     </button>
                   </div>
                 </div>
@@ -331,3 +331,4 @@ const DarkRomanceGuide = () => {
 
 
 export default DarkRomanceGuide;
+
